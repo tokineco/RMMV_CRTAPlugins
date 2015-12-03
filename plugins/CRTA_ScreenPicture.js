@@ -34,7 +34,7 @@
  * プラグインコマンド:
  *   CRTA_ScreenPicture set fade 0 0 0 0                 # 指定色でフェードスクリーンを作成する(引数1:screen or fade, 引数2:赤[0～255], 引数3:緑[0～255] 引数4:青[0～255] 引数5:透明度[0～255])
  *   CRTA_ScreenPicture set fade ScreenPoisonMist 168    # 指定ピクチャでフェードスクリーンを作成する(引数1:screen or fade, 引数2:ピクチャファイル名, 引数3:透明度[0～255])
- *   CRTA_ScreenPicture fade fade 255 60                 # フェードスクリーンを60frame使って指定透明度までフェードする(引数1:screen or fade, 引数2:透明度[0～255, 引数3:フレーム数[変数指定可能$gameVariables.value(1)等])
+ *   CRTA_ScreenPicture fade fade 255 60                 # フェードスクリーンを指定フレーム数かけて指定透明度までフェードする(引数1:screen or fade, 引数2:透明度[0～255, 引数3:フレーム数[変数指定可能$gameVariables.value(1)等])
  *   CRTA_ScreenPicture erase fade                       # フェードスクリーンを消去する(引数1:screen or fade)
  * 
  * ライセンス:
